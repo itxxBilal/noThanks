@@ -56,9 +56,9 @@ const Home: React.FC = () => {
           content="Support Gaza & Palestine by boycotting Israeli products with NoThanks."
         />
         <meta property="og:image" content="https://www.nothanks.app/og-image.jpg" />
-        <meta property="og:url" content="https://www.nothanks.app/" />
+        <meta property="og:url" content="https://nothanks.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://www.nothanks.app/" />
+        <link rel="canonical" href="https://nothanks.vercel.app/" />
       </Helmet>
 
       <div className="min-h-screen font-sans antialiased">

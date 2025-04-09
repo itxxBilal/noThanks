@@ -45,7 +45,7 @@ const About: React.FC = () => {
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="NoThanks Team" />
-        <link rel="canonical" href="https://www.nothanks.app/about" />
+        <link rel="canonical" href="https://nothanks.vercel.app/about" />
       </Helmet>
 
       <div className="min-h-screen pt-24 pb-16 bg-white">
