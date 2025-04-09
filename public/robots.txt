@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /login/
 Allow: /
 
-Sitemap: hhttps://nothanks.vercel.app/sitemap.xml
+Sitemap: https://nothanks.vercel.app/sitemap.xml
