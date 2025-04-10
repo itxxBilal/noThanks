@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { AnimatePresence } from "framer-motion";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 
@@ -11,7 +14,7 @@ import About from "./pages/About";
 import Download from "./pages/Download";
 import Products from "./pages/Products";
 import Dashboard from "./pages/Dashboard";
-import Login from "./Dashboard/Login"; // <-- Add this if you have it
+import Login from "./Dashboard/Login";
 
 function App() {
   return (
@@ -43,6 +46,7 @@ function App() {
             <Footer />
           </div>
         </Router>
+        <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} />
       </AuthProvider>
     </HelmetProvider>
   );
